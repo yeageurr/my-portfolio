@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #110e27;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.wrapper > .navigations {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 10vh;
+  width: 100%;
+  gap: 4.6em;
+  padding-right: 9em;
+  box-shadow: 0 4px 20px .5px rgba(0, 255, 13, 0.1);
+  position: sticky;
+  background-color: #110e27;
+  top: 0;
+}
+
+.navigations > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: .9em;
+  transition: .1s ease-in-out;
+}
+
+.navigations > a:hover {
+  color: #FF7904;
+}
+
+.wrapper > .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+}
+
+main > section {
+  height: 100vh;
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
+
+/* ===== HOME ===== */
+main > .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  padding: 0 17em 0 17em;
+}
+
+.home > .photo {
+  width: 23em;
+  height: 23em;
+  border-radius: 50%;
+  border: .5em solid #FF7904;
+  box-shadow: 0 0 2em .5px rgb(255, 121, 4);
+  display: block;
+}
+
+.home > .introduction {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.introduction > .name {
+  font-weight: 700;
+  font-size: 3.8em;
+}
+
+.name > span {
+  color: #ff7904;
+}
+
+.introduction > .title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5em;
+}
+
+.title-description > .title {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.title-description > .description {
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+
+/* ===== ABOUT PAGE ===== */
+
+.about {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2em;
+  padding: 0 8.5em 0 8.5em;
+}
+
+.about > .header {
+  font-size: 2em;
+}
+
+.about > .contents {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.contents > .texts {
+  max-width: 47em;
+}
+
+.texts > p {
+  font-size: 1.6em;
+  font-weight: 200;
+}
+
+.contents > .vr {
+  height: 100%;
+  width: 0.1em;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.contents > .techs {
+  width: 47em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 1em 0;
+  gap: 0.8em;
+}
+
+.techs > div {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.img-container > img {
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.img-container > p {
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.techs > .fastapi {
+  background-color: rgba(0, 255, 225, .2);
+  border: 3px solid rgb(0, 255, 225);
+}
+
+.techs > .fastapi:hover {
+  box-shadow: 0 0 2em .5px rgba(0, 255, 225, .3);
+}
+
+.techs > .html {
+  background-color: rgba(255, 136, 0, .2);
+  border: 3px solid #FF8800;
+}
+
+.techs > .html:hover {
+  box-shadow: 0 0 2em .5px rgba(255, 136, 0, .3);
+}
+
+.techs > .css {
+  background-color: rgba(17, 0, 255, 0.2);
+  border: 3px solid rgb(17, 0, 255);
+}
+
+.techs > .css:hover {
+  box-shadow: 0 0 2em .5px rgba(17, 0, 255, 0.3);
+}
+
+.techs > .js {
+  background-color: rgba(255, 230, 0, 0.2);
+  border: 3px solid rgb(255, 230, 0);
+}
+
+.techs > .js:hover {
+  box-shadow: 0 0 2em .5px rgba(255, 230, 0, 0.3);
+}
+
+.techs > .react {
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 3px solid rgb(0, 255, 234);
+}
+
+.techs > .react:hover {
+  box-shadow: 0 0 2em .5px rgba(0, 255, 255, 0.3);
+}
+
+.techs > .flutter {
+  background-color: rgba(0, 89, 255, 0.2);
+  border: 3px solid rgb(0, 26, 255);
+}
+
+.techs > .flutter:hover {
+  box-shadow: 0 0 2em .5px rgba(00, 89, 255, 0.3);
+}
