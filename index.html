@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Anthony Domasig | My Portfolio</title>
 </head>
 <body>
@@ -12,9 +13,9 @@
     <nav class="navigations">
         <a href="#home" id="">Home</a>
         <a href="#about" id="">About</a>
-        <a href="#work_btn" id="">Work</a>
-        <a href="#skills_btn" id="">Skills</a>
-        <a href="#contact_btn" id="">Contact</a>
+        <a href="#projects" id="">Projects</a>
+        <a href="#skills" id="">Skills</a>
+        <a href="#contact" id="">Contact</a>
     </nav>
 
     <main class="main">
@@ -23,7 +24,7 @@
           <p class="name">Hi! I'm <span>Anthony</span></p>
           <div class="title-description">
             <p class="title">Software Developer</p>
-            <p class="description">A passionate <span>full stack developer</span> focused on building efficient and scalable web and mobile applications.</p>
+            <p class="description">A passionate <span class="full_stack">full stack developer</span> focused on building efficient and scalable web and mobile applications.</p>
           </div>
         </div>
         <img src="profile.jpg" alt="photo" class="photo">
@@ -34,7 +35,7 @@
         <div class="contents">
           <div class="texts">
             <p>
-              I am a passionate <span>full stack developer</span> who focuses on building efficient and scalable software applications. <br><br><br>
+              I am a passionate <span class="full_stack">full stack developer</span> who focuses on building efficient and scalable software applications. <br><br><br>
               I'm currently working on building software using FastAPI, HTML, CSS, JavaScript, ReactJS, and Flutter, as well as on implementing RESTful APIs and responsive designs. <br><br><br>
               I have a strong interest in testing and troubleshooting, with a disciplined approach to ensuring quality and reliability in my work.
             </p>
@@ -69,12 +70,108 @@
         </div>
       </section>
 
-      <section class="work" id="work">
+      <section class="projects" id="projects">
+        <p class="heading">Projects</p>
+        <div class="hr"></div>
 
+        <div class="container">
+          <div class="project_folder">
+            <div class="snapshots"></div>
+            <div class="descriptions">
+              <p class="title">ParkDito - Parking Slot Booking System</p>
+              <p class="details">A digitalized parking slot reservation system designed for motorists who wants early parking space access.</p>
+              <div class="hr"></div>
+              <div class="contributions">
+                <p class="heading">Contributions</p>
+                <p class="details">Designed and developed the entire application.</p>
+              </div>
+              <div class="hr footer_div"></div>
+            </div>
+            <footer class="footer">
+              <div class="left_buttons">
+                <i class='bx bx-heart' title="send a like"></i>
+                <i class='bx bxl-github' title="view repository"></i>
+                <i class='bx bx-envelope' title="send a message"></i>
+              </div>
+              <i class='bx bx-code-alt' id="tech" title="View Technologies Used"></i>
+              <div class="techstack">
+                <div class="images">
+                  <img src="fastapi.png" alt="">
+                  <img src="html.png" alt="">
+                  <img src="css.png" alt="">
+                  <img src="js.png" alt="">
+                </div>
+              </div>
+            </footer>
+          </div>
+
+          <div class="project_folder">
+            <div class="snapshots"></div>
+            <div class="descriptions">
+              <p class="title">ParkDito - Parking Slot Booking System</p>
+              <p class="details">A digitalized parking slot reservation system designed for motorists who wants early parking space access.</p>
+              <div class="hr"></div>
+              <div class="contributions">
+                <p class="heading">Contributions</p>
+                <p class="details">Designed and developed the entire application.</p>
+              </div>
+              <div class="hr footer_div"></div>
+            </div>
+            <footer class="footer">
+              <div class="left_buttons">
+                <i class='bx bx-heart' title="send a like"></i>
+                <i class='bx bxl-github' title="view repository"></i>
+                <i class='bx bx-envelope' title="send a message"></i>
+              </div>
+              <i class='bx bx-code-alt' id="tech" title="View Technologies Used"></i>
+              <div class="techstack">
+                <div class="images">
+                  <img src="fastapi.png" alt="">
+                  <img src="html.png" alt="">
+                  <img src="css.png" alt="">
+                  <img src="js.png" alt="">
+                </div>
+              </div>
+            </footer>
+          </div>
+
+          <div class="project_folder">
+            <div class="snapshots"></div>
+            <div class="descriptions">
+              <p class="title">ParkDito - Parking Slot Booking System</p>
+              <p class="details">A digitalized parking slot reservation system designed for motorists who wants early parking space access.</p>
+              <div class="hr"></div>
+              <div class="contributions">
+                <p class="heading">Contributions</p>
+                <p class="details">Designed and developed the entire application.</p>
+              </div>
+              <div class="hr footer_div"></div>
+            </div>
+            <footer class="footer">
+              <div class="left_buttons">
+                <i class='bx bx-heart' title="send a like"></i>
+                <i class='bx bxl-github' title="view repository"></i>
+                <i class='bx bx-envelope' title="send a message"></i>
+              </div>
+              <i class='bx bx-code-alt' id="tech" title="View Technologies Used"></i>
+              <div class="techstack">
+                <div class="images">
+                  <img src="fastapi.png" alt="">
+                  <img src="html.png" alt="">
+                  <img src="css.png" alt="">
+                  <img src="js.png" alt="">
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
       </section>
 
       <section class="skills" id="skills">
+        <p class="heading">Skills & Specialization</p>
+        <div class="hr"></div>
 
+        <div class="container"></div>
       </section>
 
       <section class="contact" id="contact">
@@ -83,5 +180,7 @@
     </main>
   </div>
 
+
+  <script src="index.js"></script>
 </body>
 </html>

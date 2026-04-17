@@ -116,11 +116,17 @@ main > .home {
   font-size: 1.5em;
 }
 
+.full_stack {
+  font-weight: 500;
+  color: #ff7b00;
+}
+
 
 /* ===== ABOUT PAGE ===== */
 
 .about {
   max-height: 100%;
+  background-color: #1c183a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,4 +246,175 @@ main > .home {
 
 .techs > .flutter:hover {
   box-shadow: 0 0 2em .5px rgba(00, 89, 255, 0.3);
+}
+
+/* ===== Projects Bai ===== */
+
+main > .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2em;
+  padding: 0 5em 0 5em;
+  box-sizing: border-box;
+}
+
+.projects > .heading {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.projects > .hr {
+  width: 50%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.projects > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: max-content;
+  width: 80%;
+}
+
+.container > .project_folder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #161425;
+  border: 1px solid rgba(255, 255, 255, .2);
+  width: 22em;
+  border-radius: .7em;
+  overflow: hidden;
+}
+
+.project_folder > .snapshots {
+  height: 10em;
+  width: 100%;
+}
+
+.project_folder > .descriptions {
+  display: flex;
+  flex-direction: column; 
+  align-items: start;
+  justify-content: space-around;
+  gap: 1em;
+  background-color: #797979;
+}
+
+.descriptions > .title{
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: .7em;
+}
+
+.descriptions > .details {
+  padding: 0 .7em;
+  font-size: 1em;
+}
+
+.descriptions > .features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  width: 100%;
+}
+
+.descriptions > .hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.descriptions > .contributions {
+  padding: 0 .7em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.4em;
+}
+
+.contributions > .heading  {
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.descriptions > .footer_div {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.project_folder > .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #797979;
+  width: 100%;
+  padding: .4em 1em;
+  position: relative;
+}
+
+.footer > .left_buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.footer > i,
+.left_buttons > i {
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.footer > i:hover,
+.left_buttons > i:hover {
+  color: #ff7300;
+}
+
+.footer > .techstack {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  border: 1px solid #000;
+  width: max-content;
+  border-radius: 0.5em; 
+  top: -100%;
+  right: 0;
+  padding: .2em .8em;
+}
+
+.techstack > .images {
+  display: flex;
+  gap: 0.3em;
+}
+
+.images > img {
+  width: 1em;
+  height: 1em;
+}
+
+/* 
+  SKILLS MAHNIGGA
+*/
+
+.main > .project_folder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #161425;
+  border: 1px solid rgba(255, 255, 255, .2);
+  width: 22em;
+  border-radius: .7em;
+  overflow: hidden;
 }
