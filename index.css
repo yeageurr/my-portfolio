@@ -407,6 +407,18 @@ main > .projects {
   SKILLS MAHNIGGA
 */
 
+.skills {
+  max-height: 100%;
+  background-color: #1c183a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2em;
+  padding: 0 8.5em 0 8.5em;
+}
+
 .main > .project_folder {
   display: flex;
   flex-direction: column;
